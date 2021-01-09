@@ -1,7 +1,7 @@
 # Site settings
-title:          Tale
+title:          Naveen Bhatia
 description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
+baseurl:        "/"
 url:            "https://nbhatia.github.io"
 
 # Google Analytics
