@@ -1,7 +1,7 @@
 # Site settings
 title:          Naveen Bhatia
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/"
+description:    "Learn. Work. Share"
+baseurl:        ""
 url:            "https://nbhatia.github.io"
 
 # Google Analytics
@@ -9,9 +9,9 @@ google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Naveen Bhatia
+  url:          https://nbhatia.github.io
+  email:        naveen.bhatia.in@gmail.co.in
 
 # Build settings
 markdown:       kramdown
@@ -28,10 +28,11 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
+  # - TBD: add a plugin for search support
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
-permalink:      /:year-:month-:day/:title
+permalink:      /:title
 paginate:       5
 
 # Excludes
