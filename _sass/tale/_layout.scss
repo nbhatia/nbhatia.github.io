@@ -84,9 +84,24 @@ footer {
   font-family: $serif-secondary;
   padding: 2rem 0;
   text-align: center;
+  margin-top: 5px;
 
   span {
     color: $default-color;
     font-size: .8rem;
+  }
+  
+  .social-icons {
+    margin-bottom: 0.5em;
+  }
+
+  .social-icon {
+    display: inline-block;
+    padding: 0 0.75em;
+    color: $grey-1;
+
+    &:hover {
+      color: $default-color;
+    }
   }
 }

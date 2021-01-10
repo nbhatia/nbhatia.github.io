@@ -1,5 +1,22 @@
 <footer>
+  <script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+  {%- if site.data.social -%}
+    <div class="social-icons">
+      {%- for social in site.data.social -%}
+        {%- if social.url contains "://" -%}
+          {%- assign url = social.url -%}
+        {%- else -%}
+          {%- assign url = social.url | relative_url -%}
+        {%- endif -%}
+        <a class="social-icon" href="{{ url }}"><i class="{{ social.icon | default: 'fas fa-link' }} fa-2x"
+            title="{{ social.title }}"></i></a>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+
   <span>
-    &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
+    &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. Made with Jekyll
+    using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
   </span>
 </footer>

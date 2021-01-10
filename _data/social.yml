@@ -1,0 +1,9 @@
+- title: Email
+  url: mailto://naveen.bhatia.in@gmail.com
+  icon: fas fa-envelope
+- title: Twitter
+  url: https://twitter.com/nbhatiadev
+  icon: fab fa-twitter
+- title: GitHub
+  url: https://github.com/nbhatia
+  icon: fab fa-github

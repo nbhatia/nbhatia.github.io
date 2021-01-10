@@ -12,9 +12,14 @@ $code-color: #bf616a !default;
 
 // Fonts
 $serif-primary: 'Libre Baskerville', 'Times New Roman', Times, serif !default;
-$serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif !default;
+$serif-secondary: 'Palatino', 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif !default;
 $sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif !default;
 $monospaced: Menlo, Monaco, monospace !default;
+
+$spacer: 1rem;
+$spacer-2: calc($spacer * 1.5);
+$spacer-3: calc(($spacer) * 3);
+
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;

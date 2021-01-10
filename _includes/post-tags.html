@@ -1,0 +1,14 @@
+<div>
+  {% assign tags_page_url = "/tags" %}
+
+  <div class="tags-clouds">
+    <i class="post-tags-icon fas fa-tags"></i>
+    {% for tag in site.tags %}
+      {% capture url %}
+        {{ tags_page_url | relative_url }}#{{ tag[0] }}
+      {% endcapture %}
+      <a href="{{ url }}">{{ tag[0] }}</a>
+    {% endfor %}
+  </div>
+
+</div>
