@@ -3,11 +3,12 @@
 
   <div class="tags-clouds">
     <i class="post-tags-icon fas fa-tags"></i>
+
     {% for tag in page.tags %}
       {% capture url %}
-        {{ tags_page_url | relative_url }}#{{ tag[0] }}
+        {{ tags_page_url | relative_url }}#{{ tag }}
       {% endcapture %}
-      <a href="{{ url }}">{{ tag[0] }}</a>
+      <a href="{{ url }}">{{ tag }}</a>
     {% endfor %}
   </div>
 
