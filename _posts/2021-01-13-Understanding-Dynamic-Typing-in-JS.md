@@ -2,7 +2,7 @@
 layout: post
 title:  "Understanding Dynamic Typing in JavaScript"
 author: "Naveen Bhatia"
-tags: javascript, dynamic-typing, 
+tags: [Javascript, Dynamic Typing]
 ---
 
 JS is an interpreted and dynamically typed language - which means that the "type" of data that can be stored in a variable is not fixed before the program is actually executed - it's determined by the type of the data stored in it at run time i.e. at the time the assignment instruction is executed during the program run. In other words, it's not the variables that are tied to a type - it's the data that has a type. So we can have data values that are numbers or strings, but not the variables. 
