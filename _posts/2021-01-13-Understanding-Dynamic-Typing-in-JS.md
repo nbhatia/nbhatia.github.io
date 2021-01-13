@@ -28,16 +28,16 @@ While dynamic typing gives you a lot of freedom and flexibility as a programmer 
 
 ```javascript
 let applyCharges = function (accObj, charges, msg) {
-	if (accObj.balance < accObj.MIN_BALANCE_ALLOWED) {
-		accObj.balance -= charges; 
-		// log this transaction..
-		addTransaction(accObj, msg);
-	}
-	else
-	{
-		// do not apply any charges...
-	}
-} 
+  if (accObj.balance < accObj.MIN_BALANCE_ALLOWED) {
+    accObj.balance -= charges; 
+    // log this transaction..
+    addTransaction(accObj, msg);
+  }
+  else {
+    // do not apply any charges
+    // ...
+  }
+}
 
 // meanwhile in some other place in the code..
 let msg = "Low Balance Charges Applied";
@@ -70,12 +70,12 @@ Another way to avoid such errors is to do explicit type checking:
 
 ```jsx
 var addNumbers = (a, b) => {
-	console.assert( typeof a == "number" && typeof b == "number", 
-      		        "Error: Both params not numbers");
-
-	// now we can safely compute the result without any risk 
+  console.assert( typeof a == "number" && typeof b == "number", 
+         "Error: Both params not numbers");
+        
+  // now we can safely compute the result without any risk 
   // of automatic type conversion
-	return a-b;
+  return a-b;
 }
 
 var first = "two";
