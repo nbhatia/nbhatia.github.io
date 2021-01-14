@@ -75,7 +75,7 @@ var addNumbers = (a, b) => {
         
   // now we can safely compute the result without any risk 
   // of automatic type conversion
-  return a-b;
+  return a+b;
 }
 
 var first = "two";
@@ -91,4 +91,4 @@ result = addNumbers(first, second);
 
 But doing explicit type-checking before every operation is not feasible. But for a critical function like updating an account, in my opinion it makes sense to do it.
 
-And finally, you could switch to Typescript, which is a superset of Javascript. It extends JS by adding types to it. Code written in TS is transformed into JS by compilation. And since TS enforces typed declarations of variables, such errors are caught during the compilation process - much before the code is actually executed.
+And finally, you could switch to Typescript - which is a superset of Javascript. It extends JS by adding types to it. Code written in TS is transformed into JS by compilation. And since TS enforces typed declarations of variables, such errors are caught during the compilation process - much before the code is actually executed.
