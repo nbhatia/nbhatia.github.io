@@ -56,7 +56,7 @@ Another thing worth highlighting through this example is the likelihood of the b
 
 One way to catch these bugs before they get to production is to write enough quality test cases so as to ensure good code coverage. But is there something we could do to avaoid such situaltions completely? Read on.
 
-## How to avoid errors introduced by loose type checking
+## How to avoid errors caused by loose type checking
 
 Some of the ways we can avoid such errors completely are:
 
