@@ -9,9 +9,9 @@ tags: [Elementor, Troubleshooting]
 The other day when I signed into my Wordpress website's admin console, and tried to edit a page in Elementor, it just refused to open and I got this message:
 
 
-<br/>
+<br>
 ![Preview-Error](assets/imgs/preview-error.png)
-<br/>
+<br>
 
 Another manifestation of this issue is the missing 'Edit in Elementor' option in the Admin toolbar when previewing your page.
 
@@ -22,6 +22,7 @@ Admin toolbar with the 'Edit With Elementor' option present
 Admin toolbar with the 'Edit with Elementor' option missing:
 
 ![Admin-Toolbar](assets/imgs/admin-toolbar-2.png)
+<br>
 
 Seems like a very familiar problem many of us have faced. The first time I had faced it, I had no idea why I was getting this error or what could be causing it. Initial course of action is to always try to refresh the window a few of times, or try to open the editor in an Incognito window of the browser (to rule out any browser caching issues) but these steps usually don't help and the error persists.   I suspected it to be an issue with the latest version of Elementor that I had updated to recently. I downgraded Elementor, but that also did not help. 
 
@@ -38,9 +39,9 @@ When the editor has loaded successfully in the Safe Mode, the plugins get enable
 Once your Elementor editor has loaded in Safe mode, you should now see your normal editor screen. And In the bottom right corner of your screen, you should now also see this message:
 
 
-<br/>
+<br>
 ![Safe-Mode](assets/imgs/safe-mode.png)
-<br/>
+<br>
 
 
 This tells you that the editor is running in Safe mode and you should try to fix the issue that is preventing the editor to load in normal mode, before editing your page.
