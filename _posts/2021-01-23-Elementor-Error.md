@@ -15,11 +15,11 @@ The other day when I signed into my Wordpress website's admin console, and tried
 
 Another manifestation of this issue is the missing 'Edit in Elementor' option in the Admin toolbar when previewing your page.
 
-Admin toolbar with the 'Edit With Elementor' option present
+Admin toolbar with the 'Edit With Elementor' option present:
 
 ![Admin-Toolbar](assets/imgs/admin-toolbar-1.png)
 
-Admin toolbar with the 'Edit with Elementor' option missing:
+Admin toolbar without the 'Edit with Elementor' option:
 
 ![Admin-Toolbar](assets/imgs/admin-toolbar-2.png)
 <br>
