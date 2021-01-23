@@ -13,8 +13,17 @@ The other day when I signed into my Wordpress website's admin console, and tried
 ![Preview-Error](assets/imgs/preview-error.png)
 <br/>
 
+Another manifestation of this issue is the missing 'Edit in Elementor' option in the Admin toolbar when previewing your page.
 
-Seems like a very familiar problem many of us have faced. The first time I got it, I had no idea why I was getting this error or what could be causing it. Initial course of action is to always try to refresh the window a few of times, or try to open the editor in an Incognito window of the browser (to rule out any browser caching issues) but these steps usually don't help and the error persists.   I suspected it to be an issue with the latest version of Elementor that I had updated to recently. I downgraded Elementor, but that also did not help. 
+Admin toolbar with the 'Edit With Elementor' option present
+
+![Admin-Toolbar](assets/imgs/admin-toolbar-1.png)
+
+Admin toolbar with the 'Edit with Elementor' option missing:
+
+![Admin-Toolbar](assets/imgs/admin-toolbar-2.png)
+
+Seems like a very familiar problem many of us have faced. The first time I had faced it, I had no idea why I was getting this error or what could be causing it. Initial course of action is to always try to refresh the window a few of times, or try to open the editor in an Incognito window of the browser (to rule out any browser caching issues) but these steps usually don't help and the error persists.   I suspected it to be an issue with the latest version of Elementor that I had updated to recently. I downgraded Elementor, but that also did not help. 
 
 ## Safe Mode
 
