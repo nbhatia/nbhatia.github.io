@@ -19,6 +19,8 @@ In JS, the type of a variable is _dynamic_ - which means that a variable in JS c
 
 ![DynamicTyping](/assets/imgs/dynamic-typing.png)
 
+<br>
+
 We know from the previous example that when we create a variable without assigning any value to it, its type is reported as _undefined_. And here in this example we can see that when we assign different values to it, the _type of the variable_ changes according to the type of the data value assigned to it. It changes from "number" to "string" to "boolean" to "object" etc as per the type of the value contained in it. So we see that the type of the variable is not fixed, it can change with each assignment - and that's why it's dynamic typing. And that's why it's _loosely typed_ too (as opposed to strict typing) - it's not tied to any particular type during it's lifetime.
 
 Contrast this with strict and static type checking. In a typical compiled language (C, C++, Java etc), the type of a variable has to be declared clearly in the program, and this type can not be changed at runtime. So a variable declared of the type 'integer' can only be assigned integer values - and can not have non-integer data values assigned to it at run-time. This is static typing. Any attempt to assign a value to a variable which is different from the type declared for that variable would result in a compilation error.
