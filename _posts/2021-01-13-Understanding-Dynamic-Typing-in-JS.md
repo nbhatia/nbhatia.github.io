@@ -9,13 +9,17 @@ tags:
 ---
 JS is an interpreted and dynamically typed language - which means that the "type" of data that can be stored in a variable is not fixed before the program is actually executed - it's determined by the type of the data stored in it at run time i.e. at the time the assignment instruction is executed during the program run. In other words, it's not the variables that are tied to a type - it's the data that has a type. So we can have data values that are numbers or strings, but not the variables.
 
-![typeof](/assets/imgs/typeof-var.png)
+<br>
+
+![typeof](/assets/imgs/typeof-var.png)<br>
 
 In the example above, we can see that a variable by itself - i.e when it's declared without assigning a value to it - has no type (its type is _undefined)_. And when a value is assigned to it, its type is reported as the type of the data value contained in it.
 
 ## Type of a variable is dynamic
 
 In JS, the type of a variable is _dynamic_ - which means that a variable in JS can have a value of any type at any point during its lifetime. Let's understand this with the help of another example:
+
+<br>
 
 ![DynamicTyping](/assets/imgs/dynamic-typing.png)
 
@@ -53,7 +57,11 @@ In the example above, we want to apply some charges to a bank account when a min
 Also, because of the automatic type conversion (aka **implicit coercion**) in JS, the JS interpreter quietly performs this type conversion, and saves **NaN** in accObj.balance (whenever there's a subtraction operation between a number and a string, the result is NaN - a special value designated to indicate that the value is not-a-number). Now clearly that's a problem. And if you fail to catch this error during testing, it will only come to light when a customer reports it.
 On a compiled language which is statically typed, there's no way such an error could go unnoticed. The compiler would catch it immediately.
 
+<br>
+
 ![automatic-type-conversion](/assets/imgs/implicit-coercion.png)
+
+<br>
 
 Another thing worth highlighting through this example is the likelihood of the buggy block of code getting executed. If it's execution is contained in a if-else block, and if the condition/s requiring it to execute is less likely to be true - then the bug could just sit there in the production code for many days before it's reported.
 
